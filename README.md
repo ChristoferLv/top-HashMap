@@ -1,53 +1,53 @@
 # HashMap
 
-Projeto de estrutura de dados desenvolvido como parte da trilha JavaScript do [The Odin Project](https://www.theodinproject.com/lessons/javascript-hashmap), com foco em implementação manual de um HashMap com tratamento de colisões.
+Data structure project developed as part of the JavaScript path of [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), focused on manually implementing a HashMap with collision handling.
 
-## Objetivo do Projeto
+## Project Objective
 
-O objetivo principal foi praticar:
-- Implementação de função de hash para chaves de texto
-- Armazenamento em buckets com encadeamento por arrays
-- Operações de inserção, consulta e remoção
-- Controle de fator de carga e redimensionamento automático
-- Exposição de chaves, valores e entradas armazenadas
+The main objective was to practice:
+- Implementing a hash function for string keys
+- Bucket storage with array chaining
+- Insertion, lookup, and removal operations
+- Load factor control and automatic resizing
+- Exposing stored keys, values, and entries
 
-## O que é?
+## What is it?
 
-Uma implementação da classe `HashMap` em JavaScript com armazenamento interno em buckets e resolução de colisões por listas dentro de cada índice.
+An implementation of a `HashMap` class in JavaScript with internal bucket storage and collision resolution through lists inside each index.
 
-Quando o fator de carga ultrapassa o limite definido, o mapa dobra a capacidade e reinsere os pares chave/valor para manter a distribuição.
+When the load factor exceeds the defined limit, the map doubles its capacity and reinserts the key/value pairs to maintain distribution.
 
-## Como usar
+## How to use
 
-1. Entre na pasta do projeto:
-   `cd Javascript/top-HashMap`
-2. Execute o arquivo de demonstração:
+1. Enter the project folder:
+   `Javascript/top-HashMap`
+2. Run the demo file:
    `node index.js`
 
-## Funcionalidades
+## Features
 
-- **`hash(key)`**: calcula o índice da chave
-- **`set(key, value)`**: adiciona ou atualiza um par chave/valor
-- **`get(key)`**: retorna o valor da chave ou `null`
-- **`has(key)`**: verifica se a chave existe
-- **`remove(key)`**: remove uma chave e retorna `true` ou `false` de acordo com o sucesso da operação
-- **`length`**: quantidade atual de pares armazenados
-- **`clear()`**: limpa completamente o mapa
-- **`keys`**: retorna as chaves armazenadas
-- **`values`**: retorna os valores armazenados
-- **`entries`**: retorna os pares chave e valor armazenados
+- **`hash(key)`**: calculates the key index
+- **`set(key, value)`**: adds or updates a key/value pair
+- **`get(key)`**: returns the key value or `null`
+- **`has(key)`**: checks whether the key exists
+- **`remove(key)`**: removes a key and returns `true` or `false` depending on the result
+- **`length`**: current number of stored pairs
+- **`clear()`**: completely clears the map
+- **`keys`**: returns the stored keys
+- **`values`**: returns the stored values
+- **`entries`**: returns the stored key/value pairs
 
-## Estrutura de Arquivos
+## File Structure
 
-- `HashMap.js`: implementação da classe `HashMap`
-- `index.js`: script de demonstração com inserções e consultas
+- `HashMap.js`: implementation of the `HashMap` class
+- `index.js`: demo script with insertions and queries
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - JavaScript (ES Modules)
 
 ---
 
-Projeto desenvolvido seguindo: [The Odin Project - HashMap](https://www.theodinproject.com/lessons/javascript-hashmap)
+Project developed following: [The Odin Project - HashMap](https://www.theodinproject.com/lessons/javascript-hashmap)
 
-📍 **Repositório principal com todos os projetos**: [ChristoferLv/TheOdinProject](https://github.com/ChristoferLv/TheOdinProject)
+📍 **Main repository with all projects**: [ChristoferLv/TheOdinProject](https://github.com/ChristoferLv/TheOdinProject)
